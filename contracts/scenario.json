@@ -1,0 +1,98 @@
+{
+  "accounts": {
+    "account{0}": "0x5B38Da6a701c568545dCfcB03FcB875f56beddC4"
+  },
+  "linkReferences": {},
+  "transactions": [
+    {
+      "timestamp": 1722402227425,
+      "record": {
+        "value": "0",
+        "inputs": "()",
+        "parameters": [],
+        "name": "",
+        "type": "constructor",
+        "abi": "0x117b5ecd89ac31784f6e8b1df79391d326f55cd4e3bb12596fed6ca4374803e3",
+        "contractName": "SimpleStorage",
+        "bytecode": "6080604052348015600f57600080fd5b5060988061001e6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80636057361d14602d575b600080fd5b605660048036036020811015604157600080fd5b81019080803590602001909291905050506058565b005b806000819055505056fea2646970667358221220d50253b196a5f895e2046f959d9df5342278259bc5c6b68d6a9e39f48bb02e2d64736f6c634300060c0033",
+        "linkReferences": {},
+        "from": "account{0}"
+      }
+    },
+    {
+      "timestamp": 1722414019068,
+      "record": {
+        "value": "0",
+        "inputs": "()",
+        "parameters": [],
+        "name": "",
+        "type": "constructor",
+        "abi": "0x117b5ecd89ac31784f6e8b1df79391d326f55cd4e3bb12596fed6ca4374803e3",
+        "contractName": "SimpleStorage",
+        "bytecode": "6080604052348015600f57600080fd5b5060988061001e6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80636057361d14602d575b600080fd5b605660048036036020811015604157600080fd5b81019080803590602001909291905050506058565b005b806000819055505056fea2646970667358221220d50253b196a5f895e2046f959d9df5342278259bc5c6b68d6a9e39f48bb02e2d64736f6c634300060c0033",
+        "linkReferences": {},
+        "from": "account{0}"
+      }
+    },
+    {
+      "timestamp": 1722414072129,
+      "record": {
+        "value": "0",
+        "inputs": "()",
+        "parameters": [],
+        "name": "",
+        "type": "constructor",
+        "abi": "0xfea82e8696d5714dff67c4566d1c70e4a33fc138cc7edb4c5f239f6243926bfe",
+        "contractName": "SimpleStorage",
+        "bytecode": "608060405234801561001057600080fd5b5060c48061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c8063471f7cdf1460375780636057361d146053575b600080fd5b603d607e565b6040518082815260200191505060405180910390f35b607c60048036036020811015606757600080fd5b81019080803590602001909291905050506084565b005b60005481565b806000819055505056fea2646970667358221220a495693b7cae2aae5fa6605a125097aee4ec8056b87eec9572df3ac37930c6d264736f6c634300060c0033",
+        "linkReferences": {},
+        "from": "account{0}"
+      }
+    }
+  ],
+  "abis": {
+    "0x117b5ecd89ac31784f6e8b1df79391d326f55cd4e3bb12596fed6ca4374803e3": [
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "_favatiteNumber",
+            "type": "uint256"
+          }
+        ],
+        "name": "store",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      }
+    ],
+    "0xfea82e8696d5714dff67c4566d1c70e4a33fc138cc7edb4c5f239f6243926bfe": [
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "_favatiteNumber",
+            "type": "uint256"
+          }
+        ],
+        "name": "store",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "favoriteNumber",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ]
+  }
+}
